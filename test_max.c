@@ -12,5 +12,3 @@ int main(void) {
   assert (max(y, 1) == 5);
   printf("Max: passed\n");
   }
-
-
