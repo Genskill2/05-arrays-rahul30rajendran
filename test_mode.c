@@ -12,23 +12,3 @@ int main(void) {
   assert (mode(y, 1) == 5);
   printf("Mode: passed\n");
   }
-int mode(int arr[],int n)
-{int arr2[200],ans=0;
-for (int i=0;i<n;i++)
-
-{int k=0;
-for (int j=0;j<n;j++)
-{
-if (arr[i]==arr[j])
-k++;
-}arr2[i]=k;}
-int max=arr2[0];
-for(int i=0;i<n;i++)
-{
-if(max<arr2[i])
-max=arr2[i];}
-for(int i=0;i<n;i++)
-{if(max==arr2[i])
-ans=i;}
-return arr[ans];
-}
