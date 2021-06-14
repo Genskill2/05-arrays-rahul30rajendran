@@ -22,15 +22,4 @@ int main(void) {
   printf("Factors: passed\n");
 }
 
-int factors(int f, int arr[100])
-{int pos=0,i=2;
-while(f>1)
-{
-if(f%i==0)
-{arr[pos]=i;
-pos++;
-f=f/i;
-}
-else
-i++;}
-return pos;}
+
