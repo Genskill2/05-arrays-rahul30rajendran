@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 float average( int arr[],int n)
 {float avg=0;
  for(int i=0;i<n;i++)
